@@ -13,9 +13,9 @@ foreach ($list_user as &$user) {
     $user['url_edit'] = "?mod=user&act=edit&id={$user['user_id']}";
     $user['url_delete'] = "?mod=user&act=delete&id={$user['user_id']}";
 }
-echo "<pre>";
-print_r($list_user);
-echo "</pre>";
+// echo "<pre>";
+// print_r($list_user);
+// echo "</pre>";
 ?>
 
 <a href="?mod=user&act=add">add member</a>

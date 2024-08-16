@@ -4,9 +4,9 @@ $sql = "SELECT * FROM `unitop`.`tbl_user` WHERE `tbl_user`.`user_id` = $id;";
 $result = mysqli_query($conn, $sql);
 $item = mysqli_fetch_assoc($result); //lấy dữ liệu bản ghi
 
-echo "<pre>";
-print_r($item);
-echo "</pre>";
+// echo "<pre>";
+// print_r($item);
+// echo "</pre>";
 ?>
 
 <?php
@@ -26,7 +26,9 @@ WHERE `user_id` = $id;";
     } else {
         echo "Lỗi: " . $sql . "<br>" . mysqli_error($conn);
     }
+    header('Location: ?mod=user&act=main');
 }
+
 ?>
 <div class="content">
     <form action="" method="post">
@@ -38,6 +40,6 @@ WHERE `user_id` = $id;";
             <option value="male">Male</option>
             <option value="female">female</option>
         </select><br><br>
-        <input type="submit" name="btn_edit" value="Update">
+        <input onclick="alert ('Update Succect')" type="submit" name="btn_edit" value="Update">
     </form>
 </div>
