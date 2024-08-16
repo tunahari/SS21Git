@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <a href="?page=logout">logout</a>
+        <div class="header">
+            <ul>
+                <li><a href="?mod=home&act=main">Home</a></li>
+                <li><a href="?mod=user&act=main">Thành viên</a></li>
+                <li><a href="?mod=post&act=news">News</a></li>
+                <li><a href="?mod=product&act=product">Product</a></li>
+                <li><a href="?mod=page&act=contact">Contact</a></li>
+                <li><a href="?mod=addpost&act=addpost">Thêm bài viết</a></li>
+            </ul>
+        </div>
+        <!-- end header -->

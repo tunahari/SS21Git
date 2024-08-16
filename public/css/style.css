@@ -1,0 +1,41 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+}
+.header,
+.footer {
+  background-color: aquamarine;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  padding: 10px 0;
+}
+li a {
+  color: black;
+  padding: 0 20px;
+}
+.content {
+  min-height: 350px;
+  background-color: bisque;
+  padding-bottom: 10px;
+}
+.news ul {
+  display: block;
+}
+.noidung {
+  display: block;
+}
+#review {
+  width: 200px; /* Set chiều rộng */
+  height: 300px; /* Set chiều cao */
+}
+span {
+  color: brown;
+}
